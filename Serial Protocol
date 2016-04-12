@@ -20,18 +20,18 @@ ID	   KOM
 
 Commands
 Handshake (id 0):
-101 - begynd handshake, sender produkt id i næste 3 bytes
-110 - sendes fra master, næste byte er id
-011 - søg efter ny enhed
+101 | 0x5 - begynd handshake, sender produkt id i næste 3 bytes
+110 | 0x6 - sendes fra master, næste byte er id
+011 | 0x3 - søg efter ny enhed
 
 ----------------------------------------------------------------
 
-000 - Fejl, næste byte er fejlkode
-001 - Spørge efter data, næste bytesæt er data type
-010 - Sende data, første byte er data type, de to sidste er dataen
-101 - Fra master til enhed ændre værdi, første id og to sidste data
-110 - Fra enhed confimerer ændring, første id og to sidste data
-100 - Ping device
-111 - return ping with product id
+000 | 0x0 - Fejl, næste byte er fejlkode
+001 | 0x1- Spørge efter data, næste bytesæt er data type
+010 | 0x2- Sende data, første byte er data type, de to sidste er dataen
+101 | 0x5 - Fra master til enhed ændre værdi, første id og to sidste data
+110 | 0x6 - Fra enhed confimerer ændring, første id og to sidste data
+100 | 0x4 - Ping device
+111 | 0x7 - return ping with product id
 ----------------------------------------------------------------
 
