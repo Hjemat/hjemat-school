@@ -537,6 +537,68 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="DIODE_SMB">
+<description>&lt;B&gt;DIODE&lt;/B&gt;</description>
+<wire x1="-2.2606" y1="1.905" x2="2.2606" y2="1.905" width="0.1016" layer="21"/>
+<wire x1="-2.2606" y1="-1.905" x2="2.2606" y2="-1.905" width="0.1016" layer="21"/>
+<wire x1="-2.2606" y1="-1.905" x2="-2.2606" y2="1.905" width="0.1016" layer="51"/>
+<wire x1="2.2606" y1="-1.905" x2="2.2606" y2="1.905" width="0.1016" layer="51"/>
+<wire x1="0.193" y1="1" x2="-0.83" y2="0" width="0.2032" layer="21"/>
+<wire x1="-0.83" y1="0" x2="0.193" y2="-1" width="0.2032" layer="21"/>
+<wire x1="0.193" y1="-1" x2="0.193" y2="1" width="0.2032" layer="21"/>
+<rectangle x1="-2.794" y1="-1.0922" x2="-2.2606" y2="1.0922" layer="51"/>
+<rectangle x1="2.2606" y1="-1.0922" x2="2.794" y2="1.0922" layer="51"/>
+<rectangle x1="-1.35" y1="-1.9" x2="-0.8" y2="1.9" layer="51"/>
+<smd name="A" x="2.2" y="0" dx="2.4" dy="2.4" layer="1"/>
+<smd name="C" x="-2.2" y="0" dx="2.4" dy="2.4" layer="1"/>
+<text x="-2.159" y="2.159" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.159" y="-3.429" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="DIODE_DO35-7">
+<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
+diameter 2 mm, horizontal, grid 7.62 mm</description>
+<wire x1="3.81" y1="0" x2="2.921" y2="0" width="0.508" layer="51"/>
+<wire x1="-3.81" y1="0" x2="-2.921" y2="0" width="0.508" layer="51"/>
+<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="1.016" x2="2.286" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="2.286" y1="0.762" x2="2.286" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="-1.016" x2="2.286" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.286" y1="0.762" x2="-2.032" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.286" y1="-0.762" x2="-2.032" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.032" y1="-1.016" x2="2.032" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="0.762" x2="-2.286" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="1.016" x2="2.032" y2="1.016" width="0.1524" layer="21"/>
+<rectangle x1="-1.905" y1="-1.016" x2="-1.397" y2="1.016" layer="21"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
+<rectangle x1="-2.921" y1="-0.254" x2="-2.286" y2="0.254" layer="21"/>
+<pad name="A" x="3.81" y="0" drill="0.8128" shape="long"/>
+<pad name="C" x="-3.81" y="0" drill="0.8128" shape="long"/>
+<text x="-2.286" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.286" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="DIODE_SMC">
+<description>&lt;b&gt;DIODE&lt;/b&gt;</description>
+<wire x1="-3.5606" y1="3.105" x2="3.5606" y2="3.105" width="0.1016" layer="21"/>
+<wire x1="-3.5606" y1="-3.105" x2="3.5606" y2="-3.105" width="0.1016" layer="21"/>
+<wire x1="-3.5606" y1="-3.105" x2="-3.5606" y2="3.105" width="0.1016" layer="51"/>
+<wire x1="3.5606" y1="-3.105" x2="3.5606" y2="3.105" width="0.1016" layer="51"/>
+<wire x1="0.543" y1="1" x2="-0.83" y2="0" width="0.2032" layer="21"/>
+<wire x1="-0.83" y1="0" x2="0.543" y2="-1" width="0.2032" layer="21"/>
+<wire x1="0.543" y1="-1" x2="0.543" y2="1" width="0.2032" layer="21"/>
+<rectangle x1="-4.094" y1="-1.0922" x2="-3.5606" y2="1.0922" layer="51"/>
+<rectangle x1="3.5606" y1="-1.0922" x2="4.094" y2="1.0922" layer="51"/>
+<rectangle x1="-2.1" y1="-3.1" x2="-0.85" y2="3.1" layer="21"/>
+<smd name="A" x="3.7" y="0" dx="2.8" dy="3.8" layer="1"/>
+<smd name="C" x="-3.7" y="0" dx="2.8" dy="3.8" layer="1"/>
+<text x="-3.459" y="3.359" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.459" y="-4.629" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="R">
@@ -550,6 +612,19 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
 <text x="-5.08" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
 <text x="5.08" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
+</symbol>
+<symbol name="DIODE_SCHOTTKY-DIODE">
+<wire x1="-1.27" y1="1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<pin name="A" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="C" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+<text x="-1.905" y="-2.286" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="3.429" y="-2.286" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<text x="0" y="-2.54" size="0.4064" layer="99" rot="R180" align="center">SpiceOrder 1</text>
+<text x="0" y="2.54" size="0.4064" layer="99" rot="R180" align="center">SpiceOrder 2</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -777,6 +852,50 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 </device>
 </devices>
 </deviceset>
+<deviceset name="DIODE_E-" prefix="D" uservalue="yes">
+<description>Schottky Diode</description>
+<gates>
+<gate name="G$1" symbol="DIODE_SCHOTTKY-DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIODE_SMB">
+<connects>
+<connect gate="G$1" pin="A" pad="C"/>
+<connect gate="G$1" pin="C" pad="A"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="SPICEMODEL" value="diode" constant="no"/>
+<attribute name="SPICEPREFIX" value="D" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="DO35-7" package="DIODE_DO35-7">
+<connects>
+<connect gate="G$1" pin="A" pad="C"/>
+<connect gate="G$1" pin="C" pad="A"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="SPICEMODEL" value="diode" constant="no"/>
+<attribute name="SPICEPREFIX" value="D" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SMC" package="DIODE_SMC">
+<connects>
+<connect gate="G$1" pin="A" pad="C"/>
+<connect gate="G$1" pin="C" pad="A"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="SPICEMODEL" value="diode" constant="no"/>
+<attribute name="SPICEPREFIX" value="D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="transistor">
@@ -859,17 +978,11 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <part name="MASTER" library="linear-technology" deviceset="LTC485" device="N"/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="VCC" device=""/>
-<part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="VCC" device="" value="5V"/>
 <part name="SUPPLY6" library="supply2" deviceset="VCC" device="" value="5V"/>
-<part name="SUPPLY9" library="supply2" deviceset="VCC" device="" value="RX"/>
 <part name="PIN13" library="supply2" deviceset="VCC" device="" value="Pin"/>
 <part name="SUPPLY11" library="supply2" deviceset="VCC" device="" value="TX"/>
-<part name="R1" library="eagle-ltspice" deviceset="R" device="" value="2200"/>
-<part name="R3" library="eagle-ltspice" deviceset="R" device="" value="1200"/>
-<part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
-<part name="R8" library="eagle-ltspice" deviceset="R" device="" value="120"/>
 <part name="R2" library="eagle-ltspice" deviceset="R" device="" value="120"/>
 <part name="T1" library="transistor" deviceset="BC337" device=""/>
 <part name="T2" library="transistor" deviceset="BC337" device=""/>
@@ -885,6 +998,11 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <part name="R6" library="eagle-ltspice" deviceset="R" device="" value="1000"/>
 <part name="R7" library="eagle-ltspice" deviceset="R" device="" value="1000"/>
 <part name="R10" library="eagle-ltspice" deviceset="R" device="" value="1000"/>
+<part name="SUPPLY16" library="supply2" deviceset="GND" device=""/>
+<part name="R1" library="eagle-ltspice" deviceset="R" device="" value="220"/>
+<part name="PIN1" library="supply2" deviceset="VCC" device="" value="Pin"/>
+<part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
+<part name="D1" library="eagle-ltspice" deviceset="DIODE_E-" device="" value="Blue"/>
 </parts>
 <sheets>
 <sheet>
@@ -897,17 +1015,11 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <instance part="MASTER" gate="G$1" x="-12.7" y="134.62"/>
 <instance part="SUPPLY3" gate="GND" x="10.16" y="116.84"/>
 <instance part="SUPPLY4" gate="G$1" x="10.16" y="147.32"/>
-<instance part="SUPPLY7" gate="GND" x="-35.56" y="106.68"/>
 <instance part="SUPPLY2" gate="GND" x="-53.34" y="132.08"/>
 <instance part="SUPPLY5" gate="G$1" x="-63.5" y="127"/>
 <instance part="SUPPLY6" gate="G$1" x="-53.34" y="160.02"/>
-<instance part="SUPPLY9" gate="G$1" x="-40.64" y="152.4" rot="R90"/>
 <instance part="PIN13" gate="G$1" x="-86.36" y="134.62" rot="R90"/>
 <instance part="SUPPLY11" gate="G$1" x="-81.28" y="109.22" rot="R90"/>
-<instance part="R1" gate="G$1" x="-33.02" y="147.32" rot="R90"/>
-<instance part="R3" gate="G$1" x="-33.02" y="157.48" rot="R90"/>
-<instance part="SUPPLY10" gate="GND" x="-33.02" y="139.7"/>
-<instance part="R8" gate="G$1" x="-35.56" y="114.3" rot="R90"/>
 <instance part="R2" gate="G$1" x="2.54" y="132.08" rot="R90"/>
 <instance part="T1" gate="G$1" x="-55.88" y="139.7"/>
 <instance part="T2" gate="G$1" x="-71.12" y="134.62"/>
@@ -923,6 +1035,11 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <instance part="R6" gate="G$1" x="-63.5" y="119.38" rot="R90"/>
 <instance part="R7" gate="G$1" x="-73.66" y="109.22" rot="R180"/>
 <instance part="R10" gate="G$1" x="-78.74" y="134.62" rot="R180"/>
+<instance part="SUPPLY16" gate="GND" x="-63.5" y="101.6"/>
+<instance part="R1" gate="G$1" x="-30.48" y="149.86" rot="R90"/>
+<instance part="PIN1" gate="G$1" x="-43.18" y="154.94" rot="R90"/>
+<instance part="SUPPLY7" gate="GND" x="-38.1" y="142.24"/>
+<instance part="D1" gate="G$1" x="-38.1" y="147.32"/>
 </instances>
 <busses>
 </busses>
@@ -951,14 +1068,6 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="SUPPLY10" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="SUPPLY7" gate="GND" pin="GND"/>
-</segment>
-<segment>
 <pinref part="T1" gate="G$1" pin="E"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
 </segment>
@@ -969,6 +1078,14 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <segment>
 <pinref part="T4" gate="G$1" pin="E"/>
 <pinref part="SUPPLY13" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="T3" gate="G$1" pin="E"/>
+<pinref part="SUPPLY16" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="SUPPLY7" gate="GND" pin="GND"/>
+<pinref part="D1" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -998,18 +1115,11 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="-33.02" y1="152.4" x2="-38.1" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="SUPPLY9" gate="G$1" pin="VCC"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="MASTER" gate="G$1" pin="RO"/>
-<wire x1="-25.4" y1="144.78" x2="-25.4" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="-25.4" y1="165.1" x2="-33.02" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="165.1" x2="-33.02" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="PIN1" gate="G$1" pin="VCC"/>
+<wire x1="-30.48" y1="154.94" x2="-38.1" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="154.94" x2="-40.64" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="149.86" x2="-38.1" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -1036,9 +1146,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <pinref part="T4" gate="G$1" pin="C"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="MASTER" gate="G$1" pin="DI"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="-35.56" y1="119.38" x2="-25.4" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="-48.26" y1="119.38" x2="-35.56" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="119.38" x2="-25.4" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -1059,6 +1167,13 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <segment>
 <pinref part="T2" gate="G$1" pin="B"/>
 <pinref part="R10" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="MASTER" gate="G$1" pin="RO"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="-25.4" y1="144.78" x2="-30.48" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
